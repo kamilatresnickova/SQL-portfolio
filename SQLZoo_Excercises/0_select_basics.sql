@@ -1,4 +1,4 @@
-/* LEKCE 0: SELECT Basics
+/* LECTURE 0: SELECT Basics
 Source: sqlzoo.net/wiki/SELECT_basics
 Lecture includes: WHERE, IN, BETWEEN
 */
