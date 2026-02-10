@@ -67,6 +67,15 @@ Detailed record of completed lessons and key technical skills acquired.
 * **Data Grouping:** Mastering the `GROUP BY` clause to perform calculations across different categories (e.g., counting countries per continent).
 * **Advanced Filtering (HAVING):** Learning to filter aggregated results (e.g., finding continents with a total population over a certain threshold), which is distinct from the `WHERE` clause.
 
+### Lesson 6: The JOIN operation
+*Focus: Combining data from multiple related tables.*
+
+* **Relational Logic:** Using `JOIN` (Inner Join) to combine rows from two tables based on a related column (e.g., `game.id = goal.matchid`).
+* **Table Aliasing:** Managing queries involving multiple tables by clearly defining source columns to avoid ambiguity.
+* **Filtering Joined Data:** Applying `WHERE` clauses to combined datasets (e.g., finding goals scored in a specific stadium).
+* **Conditional Aggregation:** Implementing `CASE WHEN` within a `SUM` function to create pivot-table style summaries directly in SQL (Task 13).
+* **JOIN with GROUP BY:** Combining multiple tables and then performing complex aggregations on the resulting dataset.
+
 </details>
 
 <details>
