@@ -8,7 +8,7 @@ This repository serves as a professional archive of my SQL progress, featuring e
 Below is a detailed log of my learning path.
 
 <details>
-<summary><b>SQLZoo - Completed Lessons & Learning Outcomes (Click to expand)</b></summary>
+<summary><b>SQLZoo (Click to expand)</b></summary>
 
 ## SQLZoo - Practice Notes
 
@@ -50,9 +50,46 @@ Detailed record of completed lessons and key technical skills acquired.
     * Implementing `ORDER BY` with multiple columns and mixed directions (`DESC` for years, `ASC` for names).
     * **Custom Sorting Logic:** Using boolean expressions in `ORDER BY` (e.g., `subject IN ('Physics','Chemistry')`) to force specific records to the bottom of the result set for customized reporting.
 
+  ### Lesson 4: SELECT within SELECT
+*Focus: Mastering subqueries and nested logic.*
+
+* **Internal Queries:** Learning to use the result of one query as a filter for another.
+* **Global Comparisons:** Using subqueries to compare individual records against global values (e.g., countries with a higher GDP than the UK).
+* **Percentage Calculations:** Using nested SELECT statements to perform calculations against a specific reference value (e.g., population as a percentage of Germany).
+* **Advanced Keywords (ALL/ANY):** Comparing a single value against every value returned by a subquery.
+* **Correlated Subqueries:** Understanding complex "query-within-a-query" logic where the inner query refers back to the outer table.
+
+  ### Lesson 5: SUM and COUNT
+*Focus: Data aggregation and group-level analysis.*
+
+* **Aggregate Functions:** Using `SUM`, `COUNT`, `AVG`, `MIN`, and `MAX` to summarize large datasets.
+* **Unique Values:** Implementing `DISTINCT` to identify unique categories within a column.
+* **Data Grouping:** Mastering the `GROUP BY` clause to perform calculations across different categories (e.g., counting countries per continent).
+* **Advanced Filtering (HAVING):** Learning to filter aggregated results (e.g., finding continents with a total population over a certain threshold), which is distinct from the `WHERE` clause.
+
 </details>
 
 <details>
-<summary><b>SQLBolt (Coming soon)</b></summary>
-Log for SQLBolt exercises.
+<summary><b>SQLBolt (Click to expand)</b></summary>
+
+## SQLBolt - Practice Notes
+Detailed record of completed lessons and key technical skills acquired.
+
+### Lesson 1: SELECT Queries 101
+*Focus: Fundamental data retrieval from tables.*
+* **Column Selection:** Selecting specific data points (e.g., title, director) to minimize query load and focus on relevant information.
+* **Full Table Scan:** Utilizing `SELECT *` to quickly inspect the table structure and all available data fields.
+
+### Lesson 2: Queries with Constraints
+*Focus: Filtering data using numerical and logical operators.*
+* **ID Lookup:** Performing precise searches for specific records using unique identifiers (IDs).
+* **Range Filtering:** Implementing the `BETWEEN` operator for temporal analysis (e.g., filtering movies by release years).
+* **Result Limitation:** Using `LIMIT` to restrict the output to the first X records, an essential practice for optimizing performance in large-scale databases.
+
+### Lesson 3: Queries with Constraints (Text)
+*Focus: String manipulation and pattern matching.*
+* **Pattern Matching:** Using the `LIKE` operator combined with the `%` wildcard for fuzzy searches (e.g., finding all titles within a movie franchise).
+* **Logical Negation:** Utilizing `!=` and `NOT` to exclude specific data points, a critical skill for data cleaning and auditing.
+* **Unique Identification:** Implementing `DISTINCT` alongside `ORDER BY` to generate clean, alphabetically sorted lists of unique values (e.g., unique director lists without duplicates).
+   
 </details>
