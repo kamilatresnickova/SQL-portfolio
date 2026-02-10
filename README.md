@@ -8,7 +8,7 @@ This repository serves as a professional archive of my SQL progress, featuring e
 Below is a detailed log of my learning path.
 
 <details>
-<summary><b>SQLZoo - Completed Lessons (Click to expand)</b></summary>
+<summary><b>SQLZoo - Completed Lessons & Learning Outcomes (Click to expand)</b></summary>
 
 ## SQLZoo - Practice Notes
 
