@@ -8,7 +8,7 @@ This repository serves as a professional archive of my SQL progress, featuring e
 Below is a detailed log of my learning path.
 
 <details>
-<summary><b>SQLZoo - Completed Lessons & Learning Outcomes (Click to expand)</b></summary>
+<summary><b>SQLZoo (Click to expand)</b></summary>
 
 ## SQLZoo - Practice Notes
 
@@ -70,6 +70,26 @@ Detailed record of completed lessons and key technical skills acquired.
 </details>
 
 <details>
-<summary><b>SQLBolt (Coming soon)</b></summary>
-Log for SQLBolt exercises.
+<summary><b>SQLBolt (Click to expand)</b></summary>
+
+## SQLBolt - Practice Notes
+Detailed record of completed lessons and key technical skills acquired.
+
+### 🟢 Lesson 1: SELECT Queries 101
+*Focus: Fundamental data retrieval from tables.*
+* **Column Selection:** Selecting specific data points (e.g., title, director) to minimize query load and focus on relevant information.
+* **Full Table Scan:** Utilizing `SELECT *` to quickly inspect the table structure and all available data fields.
+
+### 🟢 Lesson 2: Queries with Constraints
+*Focus: Filtering data using numerical and logical operators.*
+* **ID Lookup:** Performing precise searches for specific records using unique identifiers (IDs).
+* **Range Filtering:** Implementing the `BETWEEN` operator for temporal analysis (e.g., filtering movies by release years).
+* **Result Limitation:** Using `LIMIT` to restrict the output to the first X records, an essential practice for optimizing performance in large-scale databases.
+
+### 🟢 Lesson 3: Queries with Constraints (Text)
+*Focus: String manipulation and pattern matching.*
+* **Pattern Matching:** Using the `LIKE` operator combined with the `%` wildcard for fuzzy searches (e.g., finding all titles within a movie franchise).
+* **Logical Negation:** Utilizing `!=` and `NOT` to exclude specific data points, a critical skill for data cleaning and auditing.
+* **Unique Identification:** Implementing `DISTINCT` alongside `ORDER BY` to generate clean, alphabetically sorted lists of unique values (e.g., unique director lists without duplicates).
+   
 </details>
