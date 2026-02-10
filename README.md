@@ -40,6 +40,15 @@ Detailed record of completed lessons and key technical skills acquired.
     * `LEFT(column, 1)` to extract and compare the first letter of strings.
 * **Inequality:** Using the `<>` (not equal to) operator to find discrepancies between related columns.
 
+### Lesson 3: SELECT from Nobel
+*Focus: Advanced filtering, logical operators, and handling special characters.*
+
+* **Logical Operators:** Mastering complex queries using combinations of `AND`, `OR`, and `NOT`.
+* **Set Membership:** Using `IN` to efficiently filter multiple specific categories, such as Nobel Prize subjects.
+* **Escape Characters:** Handling apostrophes in strings by doubling the single quote (e.g., `'Eugene O''Neill'`), which is crucial for maintaining data integrity.
+* **Advanced Sorting:**
+    * Implementing `ORDER BY` with multiple columns and mixed directions (`DESC` for years, `ASC` for names).
+    * **Custom Sorting Logic:** Using boolean expressions in `ORDER BY` (e.g., `subject IN ('Physics','Chemistry')`) to force specific records to the bottom of the result set for customized reporting.
 
 </details>
 
