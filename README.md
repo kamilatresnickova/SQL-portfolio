@@ -50,6 +50,23 @@ Detailed record of completed lessons and key technical skills acquired.
     * Implementing `ORDER BY` with multiple columns and mixed directions (`DESC` for years, `ASC` for names).
     * **Custom Sorting Logic:** Using boolean expressions in `ORDER BY` (e.g., `subject IN ('Physics','Chemistry')`) to force specific records to the bottom of the result set for customized reporting.
 
+  ### Lesson 4: SELECT within SELECT
+*Focus: Mastering subqueries and nested logic.*
+
+* **Internal Queries:** Learning to use the result of one query as a filter for another.
+* **Global Comparisons:** Using subqueries to compare individual records against global values (e.g., countries with a higher GDP than the UK).
+* **Percentage Calculations:** Using nested SELECT statements to perform calculations against a specific reference value (e.g., population as a percentage of Germany).
+* **Advanced Keywords (ALL/ANY):** Comparing a single value against every value returned by a subquery.
+* **Correlated Subqueries:** Understanding complex "query-within-a-query" logic where the inner query refers back to the outer table.
+
+  ### Lesson 5: SUM and COUNT
+*Focus: Data aggregation and group-level analysis.*
+
+* **Aggregate Functions:** Using `SUM`, `COUNT`, `AVG`, `MIN`, and `MAX` to summarize large datasets.
+* **Unique Values:** Implementing `DISTINCT` to identify unique categories within a column.
+* **Data Grouping:** Mastering the `GROUP BY` clause to perform calculations across different categories (e.g., counting countries per continent).
+* **Advanced Filtering (HAVING):** Learning to filter aggregated results (e.g., finding continents with a total population over a certain threshold), which is distinct from the `WHERE` clause.
+
 </details>
 
 <details>
