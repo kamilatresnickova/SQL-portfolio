@@ -86,6 +86,31 @@ dataset.
 * **Advanced Aggregations with Joins:** Combining `GROUP BY` and `HAVING` to identify busy years for actors or filter by the number of starring roles.
 * **Sorting by Aggregate Results:** Ordering film lists based on the size of the cast.
 
+### Lesson 8: Using NULL
+*Focus: Handling missing data and conditional logic.*
+
+* **NULL Detection:** Using `IS NULL` and `IS NOT NULL` to identify missing entries in a database.
+* **Join Variations:** Comparing `INNER JOIN`, `LEFT JOIN`, and `RIGHT JOIN` to understand how they handle records that don't have matching counterparts (crucial for data gap analysis).
+* **The COALESCE Function:** Mastering `COALESCE` to provide default values when a field is `NULL`, ensuring cleaner reports and preventing calculation errors.
+* **Advanced Case Logic:** Using `CASE WHEN` to categorize data into custom groups based on specific conditions, creating new dimensions for analysis.
+* **Aggregating with NULLs:** Understanding that `COUNT(column)` ignores `NULL` values while `COUNT(*)` includes them.
+
+### Lesson 8+: Numeric SQL (NSS Tutorial)
+*Focus: Performing calculations on survey data and weighted averages.*
+
+* **Weighted Aggregations:** Calculating actual counts from percentages by multiplying response rates with sample sizes (e.g., `SUM(response * A_STRONGLY_AGREE / 100)`).
+* **Ratio Analysis:** Using `SUM(response * value) / SUM(response)` to find weighted averages across different groups.
+* **Conditional Summing:** Implementing `SUM(CASE WHEN ...)` to create side-by-side comparisons of different categories (e.g., comparing Computing vs. Arts enrollment).
+* **Data Granularity:** Mastering the use of `GROUP BY` on non-unique fields like institutions to summarize large-scale survey results.
+
+### Lesson 9: Window Functions
+*Focus: Advanced data ranking and partitioned calculations.*
+
+* **RANK() & OVER:** Implementing ranking systems that operate across the entire dataset without collapsing rows, unlike standard aggregation.
+* **PARTITION BY:** Segmenting window calculations into groups (e.g., calculating party rankings independently for each constituency).
+* **Nested Analytical Queries:** Using subqueries to wrap window functions, allowing for high-level filtering (e.g., extracting only the top-ranked record from each group).
+* **Data Synthesis:** Combining window-based logic with `GROUP BY` to generate complex summary reports, such as total election seats won.
+
 </details>
 
 <details>
