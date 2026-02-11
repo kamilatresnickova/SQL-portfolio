@@ -74,7 +74,17 @@ Detailed record of completed lessons and key technical skills acquired.
 * **Table Aliasing:** Managing queries involving multiple tables by clearly defining source columns to avoid ambiguity.
 * **Filtering Joined Data:** Applying `WHERE` clauses to combined datasets (e.g., finding goals scored in a specific stadium).
 * **Conditional Aggregation:** Implementing `CASE WHEN` within a `SUM` function to create pivot-table style summaries directly in SQL (Task 13).
-* **JOIN with GROUP BY:** Combining multiple tables and then performing complex aggregations on the resulting dataset.
+* **JOIN with GROUP BY:** Combining multiple tables and then performing complex aggregations on the resulting 
+dataset.
+
+### Lesson 7: More JOIN operations
+*Focus: Navigating complex many-to-many relationships.*
+
+* **Multi-Table Joins:** Linking three tables (`movie`, `actor`, `casting`) to retrieve interconnected data.
+* **Starring Roles Analysis:** Using the `ord` column to distinguish between lead and supporting roles.
+* **Nested Subqueries in Joins:** Utilizing subqueries to find collaborators and specific groups of actors (e.g., all co-stars of Art Garfunkel).
+* **Advanced Aggregations with Joins:** Combining `GROUP BY` and `HAVING` to identify busy years for actors or filter by the number of starring roles.
+* **Sorting by Aggregate Results:** Ordering film lists based on the size of the cast.
 
 </details>
 
