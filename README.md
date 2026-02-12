@@ -135,5 +135,50 @@ Detailed record of completed lessons and key technical skills acquired.
 * **Pattern Matching:** Using the `LIKE` operator combined with the `%` wildcard for fuzzy searches (e.g., finding all titles within a movie franchise).
 * **Logical Negation:** Utilizing `!=` and `NOT` to exclude specific data points, a critical skill for data cleaning and auditing.
 * **Unique Identification:** Implementing `DISTINCT` alongside `ORDER BY` to generate clean, alphabetically sorted lists of unique values (e.g., unique director lists without duplicates).
+
+### Lesson 4: Filtering and sorting query results
+*Focus: Refining result sets and data presentation.*
+* **Result Limitation:** Using `LIMIT` to restrict the number of rows returned, which is essential for performance when testing queries.
+* **Pagination:** Implementing `OFFSET` to skip a specific number of rows, a key technique for building paginated data views.
+* **Complex Sorting:** Combining `ORDER BY` with multiple columns and directions to organize data logically.
+
+### Lesson 5: Simple SELECT Queries (Review)
+*Focus: Consolidating core retrieval skills.*
+* **Comprehensive Filtering:** Applying multiple `WHERE` clauses to real-world datasets (North American cities) to extract specific insights.
+* **Geospatial Logic:** Sorting data based on coordinates (latitude/longitude) to analyze geographic trends.
+
+### Lessons 6-7: Multi-table queries with JOINs
+*Focus: Connecting related data across different tables.*
+* **Inner Joining:** Using `JOIN` to combine rows from two tables based on a shared key (Primary/Foreign Key relationship).
+* **Outer Joining:** Implementing `LEFT JOIN` and `RIGHT JOIN` to include rows even when there are no matching values in the connected table, crucial for identifying data gaps.
+
+### Lesson 8: A short note on NULLs
+*Focus: Dealing with missing or incomplete information.*
+* **Existence Checking:** Utilizing `IS NULL` and `IS NOT NULL` to filter records with missing data points.
+* **Asymmetric Joins:** Leveraging `LEFT JOIN` to find "orphaned" records (e.g., buildings with no employees).
+
+### Lesson 9: Queries with expressions
+*Focus: Real-time data transformation and calculations.*
+* **Arithmetic Expressions:** Performing calculations directly within the `SELECT` statement to create new metrics (e.g., combined sales in millions).
+* **Aliasing:** Using `AS` to give descriptive names to calculated columns, making the output audit-ready and readable.
+
+### Lessons 10-12: Aggregates and Order of Execution
+*Focus: Summarizing data and understanding the SQL engine.*
+* **Aggregate Functions:** Mastering `COUNT`, `SUM`, `AVG`, `MIN`, and `MAX` to summarize entire datasets.
+* **Data Grouping:** Using `GROUP BY` to perform calculations across specific categories (e.g., average employment years per role).
+* **Group Filtering:** Utilizing `HAVING` to filter aggregated results, a distinct process from the row-level `WHERE` filter.
+* **Query Lifecycle:** Understanding the logical order of execution to write more efficient and bug-free code.
+
+### Lessons 13-15: Data Modification (CRUD)
+*Focus: Creating, updating, and deleting records.*
+* **Inserting Data:** Adding new records to tables while maintaining data type integrity.
+* **Precise Updates:** Using `UPDATE` with specific `WHERE` clauses to modify existing data without affecting unintended rows.
+* **Safe Deletion:** Implementing `DELETE` to remove obsolete or incorrect records from the database.
+
+### Lessons 16-18: Schema Management
+*Focus: Building and modifying the database structure.*
+* **Table Creation:** Defining new table schemas with appropriate data types (TEXT, INTEGER, FLOAT).
+* **Schema Evolution:** Using `ALTER TABLE` to add new columns or modify existing structures without losing data.
+* **Clean Up:** Utilizing `DROP TABLE` to safely remove entire tables from the database.
    
 </details>
