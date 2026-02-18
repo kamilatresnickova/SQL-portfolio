@@ -1,6 +1,6 @@
 # SQL Learning Journey & Portfolio 
 
-This repository serves as a professional archive of my SQL progress, featuring exercises from SQLZoo, SQLBolt, and custom data analysis projects.
+This repository serves as a professional archive of my SQL progress, currently featuring exercises from SQLZoo and SQLBolt. Custom data analysis projects comming soon.
 
 ---
 
